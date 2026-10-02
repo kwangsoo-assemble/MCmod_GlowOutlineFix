@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "kr.asmbl.glow_outline_fix.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"BitmapGlyphMixin",
+		"FontOutlineMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

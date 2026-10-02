@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "glow_outline_fix",
+	"version": "${version}",
+	"name": "Glow Outline Fix",
+	"description": "Fixes broken glowing-text outlines (glow ink signs, etc.) for fine-pixel bitmap fonts such as Korean.",
+	"authors": [
+		"kwangsoo"
+	],
+	"contact": {},
+	"license": "All-Rights-Reserved",
+	"environment": "client",
+	"mixins": [
+		{
+			"config": "glow_outline_fix.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.8",
+		"java": ">=21"
+	}
+}
