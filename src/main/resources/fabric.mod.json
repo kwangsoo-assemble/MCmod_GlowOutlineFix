@@ -8,7 +8,7 @@
 		"kwangsoo"
 	],
 	"contact": {},
-	"license": "All-Rights-Reserved",
+	"license": "MIT",
 	"environment": "client",
 	"mixins": [
 		{
